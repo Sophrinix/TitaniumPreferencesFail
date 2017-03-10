@@ -1,18 +1,3 @@
-Welcome to your Appcelerator Titanium Mobile Project
+#Update on this bug
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
-
-
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2016 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+##so I have an answer ( for now). What needs to happen is you have to manually set  in alloy.js or tiapp.xml s all of the properties you want in preferences, then when/ if the user does open preferences.xml file, it will work as advertised. If your preferences.xml defaults are different than what you initially set, the settings you set manually will win. However, once you change them in preferences.xml those win.
