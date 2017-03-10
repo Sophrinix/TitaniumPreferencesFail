@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="eMail GPS Settings">
+  <EditTextPreference android:title="Some Textfield"
+            android:key="importantTxtField"
+            android:summary="Important Field" android:dialogTitle="Please Enter your important field answer"
+            android:defaultValue="superImportant"/>
+<EditTextPreference android:title="Critical Data"
+          android:key="superSerious"
+          android:summary="must have answer" android:dialogTitle="Something something Enterprise"
+          android:defaultValue="imap.example.com"/>
+<CheckBoxPreference
+        android:key="FreeGiveaway"
+        android:title="Free Stuff"
+        android:summary="Give Free Stuff Away?"
+        android:defaultValue="true" />
+</PreferenceScreen>

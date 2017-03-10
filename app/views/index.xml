@@ -1,0 +1,11 @@
+<Alloy>
+	<Window layout="vertical" class="container">
+		<Label left="30" top="20">Click on: SHOW ME WHAT YOU GOT. \n Now click: OPEN PREFERENCES (and then back out) \n Now click on: SHOW ME WHAT YOU GOT. \n We can now see those properties in preferences.xml. :-(  Please Fix</Label>
+<Label  left="30" top="20">Preferences needs to load before the app starts (like how Settings.bundle on iOS works)</Label>
+		<Button onClick="listprops" top="20">Show Me What You Got</Button>
+		<Button onClick="openPref" top="20">Open Preferences</Button>
+		<ScrollView top="60" layout="vertical" id="results">
+			<Label>Console:</Label>
+		</ScrollView>
+	</Window>
+</Alloy>
