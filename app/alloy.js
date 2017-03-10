@@ -9,6 +9,3 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-
-Ti.UI.Android.openPreferences();
-Ti.App.fireEvent('androidback',{});
